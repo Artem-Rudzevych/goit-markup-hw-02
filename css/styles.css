@@ -1,140 +1,136 @@
-:root{
-    --hover-text-color: #2196F3;
+:root {
+  --hover-text-color: #2196f3;
 }
 
-
-
 body {
-    font-family: 'Raleway', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    background-color: #ffffff;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
-    color: #757575;
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
 /* Стилизация Лого */
 .logo {
-    text-decoration: dotted;
-    font-family: 'Raleway';
-font-style: normal;
-font-weight: 700;
-font-size: 26px;
-line-height: 31px;
-identical to box height
-letter-spacing: 0.03em;
-color: #000;
+  text-decoration: dotted;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #000;
 }
 .logo-span {
-    color: #2196F3;
+  color: #2196f3;
 }
 /* Стилизация списка через класс */
-.list-style{
-    list-style: none;
-
+.list-style {
+  list-style: none;
 }
 /* Стилизация меню */
-.header-menu .link{
-color:  #212121;
-text-decoration: dotted
+.header-menu .link {
+  color: #212121;
+  text-decoration: dotted;
 }
-.header-menu .link:hover, 
-.header-menu .link:focus{
-    color: var(--hover-text-color);
+.header-menu .link:hover,
+.header-menu .link:focus {
+  color: var(--hover-text-color);
 }
 
 /* Стилизация контактов */
-.header-contact a{
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-    color: #757575;
-    text-decoration: dotted
+.header-contact a {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #757575;
+  text-decoration: dotted;
 }
-.footer-contact a{
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-    color: #757575;
-    text-decoration: dotted
+.footer-contact a {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #757575;
+  text-decoration: dotted;
 }
 .header-contact a:hover,
-.header-contact a:focus{
-    color: var(--hover-text-color);
+.header-contact a:focus {
+  color: var(--hover-text-color);
 }
 .footer-contact a:hover,
-.footer-contact a:focus{
-    color: var(--hover-text-color);
+.footer-contact a:focus {
+  color: var(--hover-text-color);
 }
 /* Стилизация hero-title */
-.hero-title{
-    color: #ffffff;
+.hero-title {
+  color: #ffffff;
 }
 /* Кнопки Button */
-.hero-button{
-    /* position: absolute;
+.hero-button {
+  /* position: absolute;
     width: 200px;
     height: 50px;
     left: 700px;
     top: 430px; */
-    color: #ffffff;
-    background-color: var(--hover-text-color);
-    border-color: transparent;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
+  color: #ffffff;
+  background-color: var(--hover-text-color);
+  border-color: transparent;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
-.button{
-    color: #212121;
-    background: #F5F4FA;
-border-radius: 4px;
-border-color: transparent;
+.button {
+  color: #212121;
+  background: #f5f4fa;
+  border-radius: 4px;
+  border-color: transparent;
 }
 .button:hover,
-.button:focus{
-    color: #ffffff;
-    background-color: var(--hover-text-color);
-    border-color: transparent;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
+.button:focus {
+  color: #ffffff;
+  background-color: var(--hover-text-color);
+  border-color: transparent;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 /* Стилизация advantages */
-.advantages-subtitle{
-    font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-    color:#212121 ;
-    
+.advantages-subtitle {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
 }
 /* Стилизация team */
 .team-name {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
 }
-.team-position{
-    font-style: normal;
-    font-size: 16px;
-    line-height: 19px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #757575;
-    font-weight: 400;
+.team-position {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+  font-weight: 400;
 }
-.about-title, .team-title{
-    color: #212121 ;
-    font-size: 36px;
+.about-title,
+.team-title {
+  color: #212121;
+  font-size: 36px;
 }
 
 /* Hero background color  #2F303A
@@ -208,7 +204,7 @@ line-height: 16px;
 letter-spacing: 0.02em;
 color: #757575; 
  */
- /* address
+/* address
  font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
@@ -218,11 +214,11 @@ or 171%
 letter-spacing: 0.03em;
 color: #FFFFFF;
  */
- /* background button 
+/* background button 
  background: #F5F4FA;
 border-radius: 4px;
  */
- /* Logo
+/* Logo
  font-family: 'Raleway';
 font-style: normal;
 font-weight: 700;
