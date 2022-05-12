@@ -1,101 +1,146 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Портфолио</title>
-    <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
-  <!--Header-->
-  <header>
-    <nav>
-<a href="/goit-markup-hw-01/index.html">WebStudio</a>
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
 
-    <ul>
-        <li><a href="/portfolio.html">Portfolio</a></li>
-        <li><a href="/contact">Contact</a></li>
-        <li><a href="/about">About</a></li>
-    </ul>
-</nav>
-    <ul>
-        <li><a href="mailto:info@example.com">info@example.com</a> </li>
-        <li> <a href="tel:+380991111111">+38 099 111 11 11</a> </li>
-    </ul>
-    
-</header>
- <!-- Сортировка проектов-->
-  <ul>
-    <li><a href=""></a>Все</li>
-    <li><a href=""></a>Веб-сайты</li>
-    <li><a href=""></a>Приложения</li>
-    <li><a href=""></a>Дизайн</li>
-    <li><a href=""></a>Маркетинг</li>
-  </ul>
- <!-- Список проектов -->
- <main>
-<ul>
-    <h1>Все проекты</h1>
-<li>
-    <img src="./images/Portfolio/1.jpg" alt="Страница веб сайта" Width="370">
-    <h2>Технокряк</h2>
-    <p>Веб-сайт</p>
-</li>
-<li><img src="./images/Portfolio/2.jpg" alt="игроки в баскетбол" Width="370">
-    <h2>Постер New Orlean vs Golden Star</h2>
-    <p>Дизайн</p>
-</li>
-<li>
-    <img src="./images/Portfolio/3.jpg" alt="Логотип ресторана" Width="370">
-    <h2>Ресторан Seafood</h2>
-    <p>Приложение</p>
-</li>
-<li>
-    <img src="./images/Portfolio/4.jpg" alt="Наушники" Width="370">
-    <h2>Проект Prime</h2>
-    <p>Маркетинг</p>
-</li>
-<li>
-    <img src="./images/Portfolio/5.jpg" alt="Две коробки" Width="370">
-    <h2>Проект Boxes</h2>
-    <p>Приложение</p>
-</li>
-<li>
-    <img src="./images/Portfolio/6.jpg" alt="Страница сайта" Width="370">
-    <h2>Inspiration has no Borders</h2>
-    <p>Веб-сайт</p>
-</li>
-<li>
-    <img src="./images/Portfolio/7.jpg" alt="Страница журнала" Width="370">
-    <h2>Издание Limited Edition</h2>
-    <p>Дизайн</p>
-</li>
-<li>
-    <img src="./images/Portfolio/8.jpg" alt="Ярлык с надписью лаб" Width="370">
-    <h2>Проект LAB</h2>
-    <p>Маркетинг</p>
-</li>
-<li>
-    <img src="./images/Portfolio/9.jpg" alt="Человек работает за ноутбуком" Width="370">
-    <h2>Growing Business</h2>
-    <p>Приложение</p>
-</li>
-</ul>
-</main>
-<footer>
-    <a href="/goit-markup-hw-01/index.html">WebStudio</a>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <!--Header-->
+    <header>
+      <nav>
+        <a class="logo" href="/goit-markup-hw-02/index.html"
+          ><span class="logo-span">Web</span>Studio</a
+        >
 
-    <address>
-         г. Киев, пр-т Леси Украинки, 26        
-      </address>
-      
-      <address>
-          <a href="mailto:info@example.com">info@example.com</a> <br />
-          <a href="tel:+380991111111">+38 099 111 11 11</a> 
-      </address>
-    
-</footer>
-</body>
+        <ul class="header-menu list-style">
+          <li><a href="/portfolio.html" class="link">Портфолио</a></li>
+          <li><a href="/contact" class="link">Контакты</a></li>
+          <li><a href="/about" class="link">Студия</a></li>
+        </ul>
+      </nav>
+      <ul class="header-contact list-style">
+        <li><a href="mailto:info@example.com">info@example.com</a></li>
+        <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
+      </ul>
+    </header>
+    <!-- Фильтр проектов-->
+    <ul class="list-style">
+      <li>
+        <button type="button" class="button active">Все</a></button>
+      </li>
+      <li>
+        <button type="button" class="button">Веб-сайты</a></button>
+      </li>
+      <li>
+        <button type="button" class="button">Приложения</a></button>
+      </li>
+      <li>
+        <button type="button" class="button">Дизайн</a></button>
+      </li>
+      <li>
+        <button type="button" class="button">Маркетинг</a></button>
+      </li>
+    </ul>
+    <!-- Список проектов -->
+    <main>
+      <ul>
+        <h1>Все проекты</h1>
+        <li>
+          <img
+            src="./images/Portfolio/1.jpg"
+            alt="Страница веб сайта"
+            width="370"
+          />
+          <h2>Технокряк</h2>
+          <p>Веб-сайт</p>
+        </li>
+        <li>
+          <img
+            src="./images/Portfolio/2.jpg"
+            alt="игроки в баскетбол"
+            width="370"
+          />
+          <h2>Постер New Orlean vs Golden Star</h2>
+          <p>Дизайн</p>
+        </li>
+        <li>
+          <img
+            src="./images/Portfolio/3.jpg"
+            alt="Логотип ресторана"
+            width="370"
+          />
+          <h2>Ресторан Seafood</h2>
+          <p>Приложение</p>
+        </li>
+        <li>
+          <img src="./images/Portfolio/4.jpg" alt="Наушники" width="370" />
+          <h2>Проект Prime</h2>
+          <p>Маркетинг</p>
+        </li>
+        <li>
+          <img src="./images/Portfolio/5.jpg" alt="Две коробки" width="370" />
+          <h2>Проект Boxes</h2>
+          <p>Приложение</p>
+        </li>
+        <li>
+          <img
+            src="./images/Portfolio/6.jpg"
+            alt="Страница сайта"
+            width="370"
+          />
+          <h2>Inspiration has no Borders</h2>
+          <p>Веб-сайт</p>
+        </li>
+        <li>
+          <img
+            src="./images/Portfolio/7.jpg"
+            alt="Страница журнала"
+            width="370"
+          />
+          <h2>Издание Limited Edition</h2>
+          <p>Дизайн</p>
+        </li>
+        <li>
+          <img
+            src="./images/Portfolio/8.jpg"
+            alt="Ярлык с надписью лаб"
+            width="370"
+          />
+          <h2>Проект LAB</h2>
+          <p>Маркетинг</p>
+        </li>
+        <li>
+          <img
+            src="./images/Portfolio/9.jpg"
+            alt="Человек работает за ноутбуком"
+            width="370"
+          />
+          <h2>Growing Business</h2>
+          <p>Приложение</p>
+        </li>
+      </ul>
+    </main>
+    <footer>
+        <a class="logo" href="/goit-markup-hw-01/index.html"
+        ><span class="logo-span">Web</span>Studio</a>
+<address>
+      <p>г. Киев, пр-т Леси Украинки, 26</p>
+
+      <ul>
+        <li><a href="mailto:info@example.com">info@example.com</a> <br /></li>
+        <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
+      </ul>
+    </address>
+    </footer>
+  </body>
 </html>
